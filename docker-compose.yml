@@ -1,0 +1,21 @@
+version: "3.9"
+
+services:
+  backend:
+    build:
+      context: ./django/django-training-compass
+    working_dir: /app
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./django/django-training-compass:/app
+
+  frontend:
+    build:
+      context: ./react-training-compass
+    working_dir: /app
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./react-training-compass:/app
+

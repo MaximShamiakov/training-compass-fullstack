@@ -1,0 +1,6 @@
+[submodule "react-training-compass"]
+	path = react-training-compass
+	url = git@github.com:MaximShamiakov/react-training-compass.git
+[submodule "django-training-compass"]
+	path = django-training-compass
+	url = git@github.com:MaximShamiakov/django-training-compass.git
